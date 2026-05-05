@@ -1,4 +1,4 @@
-# Smart Table Lamp + Fan (att2)
+# Smart Table Lamp + Fan Embedded System
 
 ## Overview
 This project is a compact embedded system for a desk workspace. When a person sits in front of the table, the system automatically turns on a fan. If the ambient light is not sufficient, it also turns on a lamp. The lamp stays off when there is enough light in the environment.
