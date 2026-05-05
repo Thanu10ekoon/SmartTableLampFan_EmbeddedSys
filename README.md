@@ -25,6 +25,14 @@ This project is a compact embedded system for a desk workspace. When a person si
 - Actuators: Fan, LED array
 - Switching: Relay module(s)
 
+## Pin Configuration
+- LED array (D13): `PB5`
+- PIR input (D2): `PD2`
+- Fan relay (D3): `PD3`
+- Ultrasonic TRIG (D4): `PD4`
+- Ultrasonic ECHO (D5): `PD5`
+- LDR input (ADC0): `A0`
+
 ## Notes
 - Thresholds for light and presence can be tuned in firmware.
 - Ensure proper power isolation when switching the fan and lamp via relays.
